@@ -12,7 +12,7 @@
 Download [here](https://github.com/kamishirodev/hwid-grabber/releases)
 
 ## Where do I put my HWID?
-Head to the [forum](https://kamishiro.dev/forums), there will be a Minecraft category and there will be a HWID sub category. Please post your HWID there, not in Discord.
+Head [here](https://kamishiro.dev/forums/whitelist.16/) on the forum. You can create a new Thread and post your HWID. Please post your HWID there, not in Discord.
 
 ## How long until I gain access?
 This can vary. But typically our team checks the forums multiple times per day. If you do not gain access within half a day there is an issue.
