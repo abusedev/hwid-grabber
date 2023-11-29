@@ -4,7 +4,7 @@
   </a>
   <h3 align="center">kamishiro.dev Minecraft External Whitelister</h3>
   <p align="center">
-    This is an open source application to get your windows HWID information to get whitelisted for the client.
+    This is an open source application to get your windows HWID information to get whitelisted for the client. This is only for members with the Member role on the forum (Application/Invite only)
   </p>
 </div>
 
