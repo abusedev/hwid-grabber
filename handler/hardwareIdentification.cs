@@ -81,5 +81,17 @@ namespace kamishiro.handler
         {
             return identifier("Win32_DiskDrive", "Model");
         }
+
+        public static string videoId()
+        {
+            return identifier("Win32_VideoController", "DriverVersion")
+            + identifier("Win32_VideoController", "Name");
+        }
+
+        public static string macId()
+        {
+            return identifier("Win32_NetworkAdapterConfiguration",
+                "MACAddress", "IPEnabled");
+        }
     }
 }
