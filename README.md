@@ -1,5 +1,7 @@
 ## kamishiro.dev 
 <div align="center">
+<img src="https://raw.githubusercontent.com/kamishirodev/crawler/main/kami.png" alt="Logo" width="400" height="400">
+  </a>
   <h3 align="center">kamishiro.dev Minecraft External Whitelister</h3>
   <p align="center">
     This is an open source application to get your windows HWID information to get whitelisted for the client.
