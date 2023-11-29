@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using maycryhwid.handler;
+using kamishiro.handler;
 using System.Threading;
 
-namespace maycryhwid
+namespace kamishiro
 {
     internal class Program
     {
@@ -29,7 +29,7 @@ namespace maycryhwid
         static void Main(string[] args)
         {
             consoleManager.moveWindowToCenter();
-            Console.Title = "maycry whitelister"; 
+            Console.Title = "kamishiro whitelister"; 
             consoleManager.centerText("Grabbing HWID");
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
