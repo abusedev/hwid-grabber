@@ -14,7 +14,7 @@ namespace kamishiro
                 string hwid = $"{hardwareIdentification.cpuId()} - {hardwareIdentification.diskId()} - {hardwareIdentification.biosId()} - {hardwareIdentification.videoId()}";
                 Clipboard.SetText(hwid);
                 Console.Clear();
-                consoleManager.centerText($"HWID: {hwid}");
+                Console.WriteLine($"HWID: {hwid}");
                 consoleManager.centerText("Copied HWID to clipboard");
                 consoleManager.keepOpen();
             }
