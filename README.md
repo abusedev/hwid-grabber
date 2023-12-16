@@ -15,7 +15,7 @@ Download [here](https://github.com/abusedev/hwid-grabber/releases)
 Head to the Discord and go to a "whitelist" forum to post your HWID.
 
 ## How long until I gain access?
-This can vary. But typically our team checks the forums multiple times per day. If you do not gain access within half a day there is an issue.
+This can vary. But typically I will check the Discord multiple times per day.
 
 ## Licensing 
 Permissions
