@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using kamishiro.handler;
+using abuse.handler;
 using System.Threading;
 
-namespace kamishiro
+namespace abuse
 {
     internal class Program
     {
@@ -29,7 +29,7 @@ namespace kamishiro
         static void Main(string[] args)
         {
             consoleManager.moveWindowToCenter();
-            Console.Title = "kamishiro whitelister"; 
+            Console.Title = "@buse whitelister"; 
             consoleManager.centerText("Grabbing HWID");
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();

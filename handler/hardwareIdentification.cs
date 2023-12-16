@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace kamishiro.handler
+namespace abuse.handler
 {
     internal class hardwareIdentification
     {

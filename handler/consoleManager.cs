@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace kamishiro.handler
+namespace abuse.handler
 {
     public class consoleManager
     {
