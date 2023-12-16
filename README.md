@@ -4,7 +4,7 @@
   </a>
   <h3 align="center">@buse HWID Whitelister</h3>
   <p align="center">
-    This is an open source application to get your windows HWID information to get whitelisted for the client. This is only for members with the Member role on the forum (Application/Invite only)
+    This is an open source application to get your windows HWID information to get whitelisted for all paid software. This is only for members with the Member role on the forum (Application/Invite only)
   </p>
 </div>
 
@@ -12,7 +12,7 @@
 Download [here](https://github.com/abusedev/hwid-grabber/releases)
 
 ## Where do I put my HWID?
-Head [here](https://@buse/forums/whitelist.16/) on the forum. You can create a new Thread and post your HWID. Please post your HWID there, not in Discord.
+Head to the Discord and go to a "whitelist" forum to post your HWID.
 
 ## How long until I gain access?
 This can vary. But typically our team checks the forums multiple times per day. If you do not gain access within half a day there is an issue.
