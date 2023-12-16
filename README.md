@@ -2,7 +2,7 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/abusedev/crawler/main/kami.png" alt="Logo" width="400" height="400">
   </a>
-  <h3 align="center">@buse Minecraft External Whitelister</h3>
+  <h3 align="center">@buse HWID Whitelister</h3>
   <p align="center">
     This is an open source application to get your windows HWID information to get whitelisted for the client. This is only for members with the Member role on the forum (Application/Invite only)
   </p>
