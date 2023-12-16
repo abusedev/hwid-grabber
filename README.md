@@ -1,6 +1,6 @@
 ## @buse 
 <div align="center">
-<img src="https://raw.githubusercontent.com/abusedev/crawler/main/kami.png" alt="Logo" width="400" height="400">
+<img src="https://raw.githubusercontent.com/abusedev/crawler/main/abuse.png" alt="Logo" width="400" height="400">
   </a>
   <h3 align="center">@buse HWID Whitelister</h3>
   <p align="center">
