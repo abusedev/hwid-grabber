@@ -4,7 +4,7 @@
   </a>
   <h3 align="center">@buse HWID Whitelister</h3>
   <p align="center">
-    This is an open source application to get your windows HWID information to get whitelisted for all paid software. This is only for members with the Member role on the forum (Application/Invite only)
+    This is an open source application to get your windows HWID information to get whitelisted for all private invite only software. This is only for members with the Member role on the forum (Application/Invite only)
   </p>
 </div>
 
