@@ -17,6 +17,12 @@ Head to the Discord and go to a "whitelist" forum to post your HWID.
 ## How long until I gain access?
 This can vary. But typically I will check the Discord multiple times per day.
 
+
+## Acknowledgments
+<div>
+    <a href="https://github.com/sfmohassel/libc.hwid">libc</a> - .NET core did not like identifer way, so I used part of their code in a class for any future .net core apps (.net framework works fine using normal way)
+</div>
+
 ## Licensing 
 Permissions
 * ✔️ Commercial use
