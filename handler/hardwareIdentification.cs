@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Management;
 
 namespace abuse.handler
 {
@@ -92,6 +93,72 @@ namespace abuse.handler
         {
             return identifier("Win32_NetworkAdapterConfiguration",
                 "MACAddress", "IPEnabled");
+        }
+
+        internal class cs2
+        {
+            public static string Wmi(string wmiClass, string wmiProperty)
+            {
+                var result = "";
+                var mc = new ManagementClass(wmiClass);
+                var moc = mc.GetInstances();
+
+                foreach (var o in moc)
+                {
+                    var mo = (ManagementObject)o;
+
+                    //Only get the first one
+                    if (result != "")
+                        continue;
+
+                    try
+                    {
+                        result = mo[wmiProperty].ToString();
+
+                        break;
+                    }
+                    catch
+                    {
+                        // ignored
+                    }
+                }
+
+                return result;
+            }
+
+            public static string biosId()
+            {
+                return Wmi("Win32_BIOS", "ReleaseDate") + Wmi("Win32_BIOS", "SMBIOSBIOSVersion");
+            }
+
+            public static string cpuId()
+            {
+                string result = Wmi("Win32_Processor", "UniqueId");
+                if (result == "")
+                {
+                    result = Wmi("Win32_Processor", "ProcessorId");
+                    if (result == "")
+                    {
+                        result = Wmi("Win32_Processor", "Name");
+                        if (result == "")
+                        {
+                            result = Wmi("Win32_Processor", "Manufacturer");
+                        }
+                        result += Wmi("Win32_Processor", "MaxClockSpeed");
+                    }
+                }
+                return result;
+            }
+
+            public static string diskId()
+            {
+                return Wmi("Win32_DiskDrive", "Model");
+            }
+
+            public static string videoId()
+            {
+                return Wmi("Win32_VideoController", "Name");
+            }
         }
     }
 }
